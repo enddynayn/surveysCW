@@ -1,0 +1,12 @@
+
+<ion-view class="surveys-list" view-title="Surveys">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="survey in surveys" type="item-text-wrap" href="#/tab/survey/{{$index}}">
+        <h2>{{survey.rating}}</h2>
+        <p>{{survey.comments}}</p>
+        <i style="text-align: right;" class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

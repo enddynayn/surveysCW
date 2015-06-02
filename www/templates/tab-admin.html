@@ -1,0 +1,36 @@
+<ion-view view-title="Dashboard">
+  <ion-nav-buttons side="primary">
+    <a ui-sref="survey">
+      <button class="button" ng-click="doSomething()">
+        Survey
+      </button>
+    </a>
+  </ion-nav-buttons>
+
+  <ion-content class="padding">
+    <div class="list card">
+      <div class="item item-divider">Survey count</div>
+      <div class="item item-body">
+        <div>
+          <b>{{surveyCount}}</b>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Likely to recommend avg</div>
+      <div class="item item-body">
+        <div>
+          <b>{{avgRating}}</b>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Previously researched product percent</div>
+      <div class="item item-body">
+        <div>
+          <b>{{avgResearched}}%</b>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

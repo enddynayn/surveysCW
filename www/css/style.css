@@ -1,0 +1,32 @@
+.user-survey .error {
+  border: 1px solid red;
+}
+
+.user-survey input.ng-dirty.ng-invalid{border:1px solid black;}
+
+.user-survey i.icon.ion-ios-star {
+  color: dodgerblue;
+}
+
+.user-survey .ratings-questions {
+  margin-bottom: 8px;
+}
+
+.thank-you .card {
+  text-align: center;
+}
+
+.thank-you i.icon.ion-ios-body {
+  font-size: 250px;
+  color: coral;
+}
+
+.thank-you a {
+    text-decoration: none;
+}
+
+
+.surveys-list li .icon.ion-ios-star-outline,
+.surveys-list li .icon.ion-ios-star {
+  font-size: 20px;
+}
